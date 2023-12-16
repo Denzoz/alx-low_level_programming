@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-/**
+#include <time.h>/**
  * main - Entry point of the program
  *
  * Return: Always 0 (Success)
@@ -15,7 +14,7 @@ printf("The number is: %d\n", n);
 if (n > 0)
 {
 printf("The number is positive.\n");
-{
+}
 else if (n == 0)
 {
 printf("The number is zero.\n");
