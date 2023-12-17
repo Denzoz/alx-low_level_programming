@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * main - Entry point of the program
+ * This function prints  all possible combinations of single-digit numbers
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+int number = 0;
+while (number < 10)
+{
+putchar('0' + number);
+if (++number < 10)
+{
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
+return (0);
+}
