@@ -17,7 +17,7 @@ if (col > 0)
 _putchar(',');
 _putchar(' ');
 }
-if (result < 10)
+if (result <= 9)
 _putchar(' ');
 else
 _putchar('0' + result / 10);
